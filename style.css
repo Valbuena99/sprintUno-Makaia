@@ -129,3 +129,76 @@ hr {
   font-size: 12px;
   margin-top: 10px;
 }
+
+/* MONDAY HOVER EFFECT */
+.mon:hover .value {
+  display: block;
+}
+.mon .value {
+  position: absolute;
+  display: none;
+}
+
+/* TUESDAY HOVER EFFECT */
+.tue:hover .value {
+  display: block;
+}
+.tue .value {
+  position: absolute;
+  display: none;
+}
+
+/* WEDNESDAY HOVER EFFECT */
+.wed:hover .value {
+  display: block;
+}
+.wed .value {
+  position: absolute;
+  display: none;
+}
+
+/* THURSDAY HOVER EFFECT */
+.thu:hover .value {
+  display: block;
+}
+.thu .value {
+  position: absolute;
+  display: none;
+}
+
+/* FRIDAY HOVER EFFECT */
+.fri:hover .value {
+  display: block;
+}
+.fri .value {
+  position: absolute;
+  display: none;
+}
+
+/* SATURDAY HOVER EFFECT */
+.sat:hover .value {
+  display: block;
+}
+.sat .value {
+  position: absolute;
+  display: none;
+}
+
+/* SUNDAY HOVER EFFECT */
+.sun:hover .value {
+  display: block;
+}
+.sun .value {
+  position: absolute;
+  display: none;
+}
+
+.value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
